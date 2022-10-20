@@ -5,61 +5,46 @@ import java.util.Scanner;
 /**
  * @author kaganmercan
  */
-public class Day1 {
+public class Day1Calculator {
     static Scanner sc = new Scanner(System.in);
-    public static void midtermFinalExamCalculator() {
-        // Variable initialization
-        double midtermGrade, finalGrade, calculatedGrade;
+    // Calculator with 4 arithmetic operation.
+    public static void calculator() {
+        // Variable initialization.
+        char operator;
+        double num1, num2, result = 0.0;
         try {
-            // Enumeration for University Exam Grade calculation.
-            enum Grade {
-                AA(100, "AA, RESULT = PASS"),
-                BA(84, "BA, RESULT = PASS"),
-                BB(69, "BB, RESULT = PASS"),
-                CB(54, "CB, RESULT = PASS"),
-                FF(49, "FF, RESULT = FAILED");
-                private final double gradeValue;
-                private final String gradeText;
-                private Grade(int gradeValue, String gradeText) {
-                    this.gradeValue = gradeValue;
-                    this.gradeText = gradeText;
+            System.out.print("Enter a first number: ");
+            num1 = sc.nextInt();
+            System.out.println();
+
+            System.out.print("Enter a operator: ");
+            operator = sc.next().charAt(0);
+            System.out.println();
+
+            System.out.print("Enter a second number: ");
+            num2 = sc.nextInt();
+            System.out.println();
+            switch (operator) {
+                case '+' -> {
+                    result = num1 + num2;
+                    System.out.println("Result = " + result);
                 }
-                public static Grade getGrade(double value) {
-                    Grade grade = null;
-                    for(Grade g : values()) {
-                        if(value <= g.gradeValue) {
-                            grade = g;
-                        }
-                    }
-                    return grade;
+                case '-' -> {
+                    result = num1 - num2;
+                    System.out.println("Result = " + result);
                 }
-                public String printGrade() {
-                    return gradeText;
+                case '*' -> {
+                    result = num1 * num2;
+                    System.out.println("Result = " + result);
                 }
-            }
-            while(true) {
-                // User input operations.
-                System.out.print("Enter midterm grade: ");
-                midtermGrade = sc.nextInt();
-                System.out.println();
-                System.out.print("Enter final grade: ");
-                finalGrade = sc.nextInt();
-                System.out.println();
-                if(midtermGrade == 0 || finalGrade == 0){
-                    System.out.println("0 is a discipline error, exiting from the system.");
-                    break;
+                case '/' -> {
+                    result = num1 / num2;
+                    System.out.println("Result = " + result);
                 }
-                // Midterm will affect %40, final will affect %60 for total grade calculation.
-                calculatedGrade = (midtermGrade * 0.4) + (finalGrade * 0.6);
-                System.out.println("*********************RESULT*********************");
-                System.out.printf("Midterm and Final average grade: %f", calculatedGrade);
-                System.out.println();
-                System.out.println(Grade.getGrade(calculatedGrade).printGrade());
-                System.out.println("************************************************");
-                System.out.println();
+                default -> System.out.println("Given operator was not suitable.");
             }
         } catch (Exception e) {
-            System.out.printf("Exception: %s", e);
+            System.out.println("Exception: " + e);
         }
     }
 }
