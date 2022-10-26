@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="690739b6-fbe1-4009-9045-9bf8c171c72b" name="Changes" comment="Update First Commit">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kaganmercan/Day3Fibonacci.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kaganmercan/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kaganmercan/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +41,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/home/kagan/IdeaProjects/AirtiesExamples"
+    "last_opened_file_path": "/home/kagan/IdeaProjects/_100DaysOfCode"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -50,7 +52,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1666301210591</updated>
-      <workItem from="1666301211799" duration="2381000" />
+      <workItem from="1666301211799" duration="3211000" />
+      <workItem from="1666809292599" duration="428000" />
     </task>
     <task id="LOCAL-00001" summary="Update First Commit">
       <created>1666302179760</created>
