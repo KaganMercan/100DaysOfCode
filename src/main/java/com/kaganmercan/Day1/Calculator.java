@@ -1,11 +1,11 @@
-package com.kaganmercan;
+package com.kaganmercan.Day1;
 
 import java.util.Scanner;
 
 /**
  * @author kaganmercan
  */
-public class Day1Calculator {
+public class Calculator {
     static Scanner sc = new Scanner(System.in);
     // Calculator with 4 arithmetic operation.
     public static void calculator() {

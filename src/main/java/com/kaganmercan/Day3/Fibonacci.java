@@ -1,11 +1,11 @@
-package com.kaganmercan;
+package com.kaganmercan.Day3;
 
 import java.util.Scanner;
 
 /**
  * @author kaganmercan
  */
-public class Day3Fibonacci {
+public class Fibonacci {
     static Scanner sc = new Scanner(System.in);
     public static void fibonacci() {
         System.out.print("Enter length of fibonacci: ");

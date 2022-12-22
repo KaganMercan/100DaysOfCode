@@ -1,11 +1,11 @@
-package com.kaganmercan;
+package com.kaganmercan.Day2;
 
 import java.util.Scanner;
 
 /**
  * @author kaganmercan
  */
-public class Day2ExamCalculation {
+public class ExamCalculation {
     static Scanner sc = new Scanner(System.in);
     public static void midtermFinalExamCalculator() {
         // Variable initialization

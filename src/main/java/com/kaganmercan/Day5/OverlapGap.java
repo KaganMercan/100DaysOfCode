@@ -72,7 +72,7 @@ public class OverlapGap {
             // First condition for gap between intervals.
             // Second condition for gap if there is no such interval left.
             if ((intervalInput.start >= intervals.get(i).end && intervalInput.end <= intervals.get(i + 1).start) ||
-                    (intervalInput.start > intervals.get(intervals.size() - 1).end && intervalInput.end > intervals.get(intervals.size() -1).end)) {
+                    (intervalInput.start > intervals.get(intervals.size() - 1).end && intervalInput.end > intervals.get(intervals.size() - 1).end)) {
                 isGap = true;
             }
         }
@@ -80,14 +80,7 @@ public class OverlapGap {
     }
 
 
-    public static void manage(boolean isGapped, boolean isOverlapped, Interval intervalInput) {
-        if (!isOverlapped && !isGapped) {
-            System.out.println(
-                    IntervalMethod.getMethod(intervalInput.start, intervalInput.end).printMethod());
-        }
-    }
-
-    public static void main(String[] args) {
+    public static void manage() {
         List<Interval> intervals = Arrays.asList(
                 new Interval(0, 10),
                 new Interval(13, 20),
@@ -98,6 +91,9 @@ public class OverlapGap {
         boolean isGapped = isGapped(intervalInput, intervals);
         System.out.println("Is overlap occurred: " + isOverlapped);
         System.out.println("Is gap occurred: " + isGapped);
-        manage(isGapped, isOverlapped, intervalInput);
+        if (!isOverlapped && !isGapped) {
+            System.out.println(
+                    IntervalMethod.getMethod(intervalInput.start, intervalInput.end).printMethod());
+        }
     }
 }
