@@ -4,18 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cc68a751-4e1d-4038-82b6-9854d573343e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kaganmercan/Day1/CalculatorMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kaganmercan/Day2/ExamCalculationMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kaganmercan/Day3/FibonacciMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kaganmercan/Day5/OverlapGapMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kaganmercan/Day1/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kaganmercan/Day1/Calculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kaganmercan/Day2/ExamCalculation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kaganmercan/Day2/ExamCalculation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kaganmercan/Day3/Fibonacci.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kaganmercan/Day3/Fibonacci.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kaganmercan/Day4/BankSendMoneyOperation.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kaganmercan/Day5/OverlapGap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kaganmercan/Day5/OverlapGap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kaganmercan/Main.java" beforeDir="false" />
+    <list default="true" id="690739b6-fbe1-4009-9045-9bf8c171c72b" name="Changes" comment="day 3 Fibonacci">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +19,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Merge.Settings">
+    <option name="BRANCH" value="alpha" />
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
@@ -36,6 +29,9 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/.gitignore" root0="SKIP_INSPECTION" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -72,26 +68,6 @@
       <recent name="com.kaganmercan.Day3" />
       <recent name="com.kaganmercan.Day2" />
     </key>
-  </component>
-  <component name="RunManager">
-    <configuration name="CalculatorMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.kaganmercan.Day1.CalculatorMain" />
-      <module name="_100DaysOfCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.kaganmercan.Day1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.CalculatorMain" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
